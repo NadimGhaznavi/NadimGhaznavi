@@ -3,7 +3,8 @@
 ## Application scope
 
 `NadimGhaznavi` is a minimal GitHub profile application. Its production payload
-is `README.md` and `nadimghaznavi/constants/DNadimGhaznavi.py`, installed under
+is `README.md`, the project logos in `images/`, and
+`nadimghaznavi/constants/DNadimGhaznavi.py`, installed under
 `/opt/prod/nadimghaznavi` with BMForge ownership and successful-version records.
 The application requires no running process, service, database, configuration,
 or runtime localization. Keep it this small unless requirements change.

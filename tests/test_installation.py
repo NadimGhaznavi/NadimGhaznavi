@@ -5,6 +5,7 @@ import importlib.util
 from io import StringIO
 import json
 from pathlib import Path
+import re
 import shutil
 import tempfile
 import unittest
@@ -13,7 +14,8 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 VERSION_FILE = "nadimghaznavi/constants/DNadimGhaznavi.py"
-PAYLOAD = ("README.md", VERSION_FILE)
+IMAGE_FILES = tuple(re.findall(r'<img src="([^"]+)"', (ROOT / "README.md").read_text()))
+PAYLOAD = ("README.md", VERSION_FILE, *IMAGE_FILES)
 spec = importlib.util.spec_from_file_location("profile_installation", ROOT / "scripts/install.py")
 installer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(installer)
@@ -99,6 +101,17 @@ class InstallationTests(unittest.TestCase):
             self.assertEqual((self.destination / name).read_bytes(), (self.checkout / name).read_bytes())
         self.assertEqual((self.destination / ".deployment-version").read_text(), self.new_version + "\n")
         self.assertEqual(retained.read_text(), '{"theme": "dark"}\n')
+
+    def test_upgrade_adds_logos_to_an_existing_readme_only_installation(self):
+        with patch.object(installer, "COPY_TREES", ()):
+            self.apply("install")
+        self.assertFalse((self.destination / "images").exists())
+        self.prepare_upgrade()
+        self.apply("upgrade")
+        for name in IMAGE_FILES:
+            self.assertEqual((self.destination / name).read_bytes(), (self.checkout / name).read_bytes())
+        manifest = json.loads((self.destination / ".installation-manifest.json").read_text())
+        self.assertEqual(set(manifest["files"]), set(PAYLOAD))
 
     def test_uninstall_repeats_and_reinstall_preserves_unowned_files(self):
         self.apply("install")

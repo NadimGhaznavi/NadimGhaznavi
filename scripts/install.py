@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Install the GitHub profile README and its CMDB identity."""
+"""Install the GitHub profile README, project logos and CMDB identity."""
 
 import argparse
 import importlib.util
@@ -14,7 +14,7 @@ BMFORGE_COMPONENT = {"id": "bmforge.installation", "spec_version": "0.1.1"}
 
 PROJECT_NAME = "NadimGhaznavi"
 DEPLOYMENT_READY = True
-COPY_TREES = ()
+COPY_TREES = ("images",)
 COPY_FILES = ("README.md", "nadimghaznavi/constants/DNadimGhaznavi.py")
 MANIFEST = ".installation-manifest.json"
 VERSION_MARKER = ".deployment-version"
