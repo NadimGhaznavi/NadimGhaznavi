@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+This release is named for the element **Rhenium (Re)**. Rhenium helps jet-engine 
+superalloys survive extreme temperatures.
+
 ### Summary
 
 Establish the GitHub profile as a minimal BMForge application whose installed
