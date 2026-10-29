@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Cut some erroneous content.
+
 ## [0.1.0] - 2026-10-29 @ 06:01
 
 This release is named for the element **Rhenium (Re)**. Rhenium helps jet-engine 
