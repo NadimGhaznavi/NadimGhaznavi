@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-29 @ 06:20
+
 ### Summary
 
 Keep the profile focused on open source projects and show five projects per row.
