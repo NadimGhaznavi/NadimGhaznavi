@@ -2,9 +2,15 @@
 
 ## [Unreleased]
 
+### Summary
+
+Keep the profile focused on open source projects and show five projects per row.
+
 ### Changed
 
 - Cut some erroneous content.
+- Arrange the 14 open source projects in a five-column table while preserving
+  their order, links, and locally stored logos.
 
 ## [0.1.0] - 2026-10-29 @ 06:01
 
