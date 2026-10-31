@@ -4,7 +4,7 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="20%">
-        <p><b><i>AI Dev Skillset</i></b></p>
+        <p><b><i>SDLC + AI</i></b></p>
         <a href="https://bmforge.osoyalce.com">
           <img src="images/bmforge.png" alt="BMForge logo" width="120" height="120">
           <br>
