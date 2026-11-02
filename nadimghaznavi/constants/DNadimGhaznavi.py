@@ -2,11 +2,11 @@ from typing import Final
 
 
 class DNadimGhaznavi:
-    VERSION: Final[str] = "0.1.2"
+    VERSION: Final[str] = "0.2.0"
     CMDB_TYPE: Final[str] = "application"
     CMDB_SUBTYPE: Final[str] = "GitHub Profile"
     CMDB_SUPPLIER: Final[str] = "Nadim-Daniel"
-    CMDB_CODENAME: Final[str] = "Californium"
+    CMDB_CODENAME: Final[str] = "Onuris"
     CMDB_COMPONENTS = ()
     CMDB_DATABASES = ()
     # Declare every owned listener; runtime defaults must use these bindings.
