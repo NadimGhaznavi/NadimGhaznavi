@@ -2,6 +2,18 @@
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-02 @ 04:05
+
+### Summary
+
+Feature DevLog first in the profile's open source project table.
+
+### Added
+
+- Add DevLog's Git Time Tracker entry, website and repository links, and local
+  logo from the www project to the top-left cell, shifting existing projects
+  in order to fill three rows of five.
+
 ## [0.1.2] - 2026-10-30 @ 21:16
 
 ## [0.1.1] - 2026-10-29 @ 06:20

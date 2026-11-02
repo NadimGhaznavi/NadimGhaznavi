@@ -4,6 +4,15 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="20%">
+        <p><b><i>Git Time Tracker</i></b></p>
+        <a href="https://devlog.osoyalce.com/">
+          <img src="images/devlog.png" alt="DevLog logo" width="131" height="120">
+          <br>
+          <b>DevLog</b>
+        </a>
+        <div><a href="https://github.com/NadimGhaznavi/devlog">GitHub Repo</a></div>
+      </td>
+      <td align="center" valign="top" width="20%">
         <p><b><i>SDLC + AI</i></b></p>
         <a href="https://bmforge.osoyalce.com">
           <img src="images/bmforge.png" alt="BMForge logo" width="120" height="120">
@@ -39,6 +48,8 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/bmdynip">GitHub Repo</a></div>
       </td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>GeoIP Database</i></b></p>
         <a href="https://bmgeoip.osoyalce.com">
@@ -48,8 +59,6 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/bmgeoip">GitHub Repo</a></div>
       </td>
-    </tr>
-    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Media Organizer</i></b></p>
         <a href="https://r3el.osoyalce.com">
@@ -86,6 +95,8 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/snake-lab">GitHub Repo</a></div>
       </td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Certificate Authority</i></b></p>
         <a href="https://bmca.osoyalce.com">
@@ -95,8 +106,6 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/bmca">GitHub Repo</a></div>
       </td>
-    </tr>
-    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>AI RL Sandbox</i></b></p>
         <a href="https://ai-hydra.readthedocs.io/en/latest/">
@@ -136,7 +145,6 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/systemctl">GitHub Repo</a></div>
       </td>
-      <td align="center" valign="top" width="20%"></td>
     </tr>
   </tbody>
 </table>
