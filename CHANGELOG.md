@@ -2,6 +2,18 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-07 @ 07:44
+
+### Summary
+
+Feature LlamaSrv first in the profile's open source project table.
+
+### Added
+
+- Add LlamaSrv's Self-Hosted LLM Service entry, website and repository links,
+  and local logo from the www project, preserving project order and five columns
+  per row.
+
 ## [0.2.0] - 2026-11-02 @ 04:05
 
 ### Summary

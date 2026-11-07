@@ -4,6 +4,15 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="20%">
+        <p><b><i>Self-Hosted LLM Service</i></b></p>
+        <a href="https://llamasrv.osoyalce.com/">
+          <img src="images/llamasrv.png" alt="LlamaSrv logo" width="120" height="120">
+          <br>
+          <b>LlamaSrv</b>
+        </a>
+        <div><a href="https://github.com/NadimGhaznavi/llamasrv">GitHub Repo</a></div>
+      </td>
+      <td align="center" valign="top" width="20%">
         <p><b><i>Git Time Tracker</i></b></p>
         <a href="https://devlog.osoyalce.com/">
           <img src="images/devlog.png" alt="DevLog logo" width="131" height="120">
@@ -39,6 +48,8 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/disk-ha">GitHub Repo</a></div>
       </td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Dynamic DNS</i></b></p>
         <a href="https://bmdynip.osoyalce.com">
@@ -48,8 +59,6 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/bmdynip">GitHub Repo</a></div>
       </td>
-    </tr>
-    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>GeoIP Database</i></b></p>
         <a href="https://bmgeoip.osoyalce.com">
@@ -86,6 +95,8 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/ax3l">GitHub Repo</a></div>
       </td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Simulation Server</i></b></p>
         <a href="https://snakelabserver.osoyalce.com">
@@ -95,8 +106,6 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/snake-lab">GitHub Repo</a></div>
       </td>
-    </tr>
-    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Certificate Authority</i></b></p>
         <a href="https://bmca.osoyalce.com">
@@ -136,6 +145,8 @@
         <div><a href="https://github.com/NadimGhaznavi/systemctl">GitHub Repo</a></div>
         <div><a href="https://pypi.org/project/systemctl/">PyPI Package</a></div>
       </td>
+    </tr>
+    <tr>
       <td align="center" valign="top" width="20%">
         <p><b><i>Delphi POC</i></b></p>
         <a href="https://delphi.osoyalce.com/">
@@ -145,6 +156,10 @@
         </a>
         <div><a href="https://github.com/NadimGhaznavi/systemctl">GitHub Repo</a></div>
       </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
