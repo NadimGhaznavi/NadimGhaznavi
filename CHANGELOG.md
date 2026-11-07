@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-11-07 @ 07:44
+
 ### Summary
 
 Feature LlamaSrv first in the profile's open source project table.
